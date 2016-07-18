@@ -93,15 +93,6 @@ public class MainActivity extends AppCompatActivity
 			@Override
 			protected void onPostExecute(Object obj) {
 				User user = (User) obj;
-//				TextView text1 = (TextView) findViewById(R.id.textView1);
-//				TextView text2 = (TextView) findViewById(R.id.textView2);
-//				TextView text3 = (TextView) findViewById(R.id.textView3);
-//				TextView text4 = (TextView) findViewById(R.id.textView4);
-//				text1.setText(user.getName());
-//				text2.setText(user.getScreenName());
-//				text3.setText("" + user.getStatus().getUserMentionEntities().length);
-//				text4.setText("onPostExecute");
-				System.out.println("onPostExecute");
 			}
 		};
 
